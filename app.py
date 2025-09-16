@@ -72,9 +72,6 @@ print(f"{celsius} Celsius is equal to {fahrenheit} fahrenheit")
 
 #display calendar
 '''
-
-'''
-
 import calendar
 year = int(input("Enter a Year: "))
 month = int(input("Enter a Month: "))
@@ -82,10 +79,48 @@ month = int(input("Enter a Month: "))
 cal = calendar.month(year, month)
 print(cal)
 
+'''
 
 
-#solve quadratic equation
+#solve quadratic equation 
+# (ax** + bx + c = 0) 
+# where a,b,c are real numbers and a /= 0
+#
+'''
+
+'''
+import math
+
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+
+discriminant = b**2 - 4*a*c 
+if discriminant > 0 :
+  root1 = (-b + math.sqrt(discriminant)) / (2*a) 
+  root2 = (-b - math.sqrt(discriminant)) / (2*a)
+print(f"Root 1: {root1}")
+print(f"Root 2: {root2}")
+
+
+
 #swap 2 variables without temp
+'''
+x = int(input("Enter a number for x: "))
+y = int(input("Enter a number for y: "))
+
+print(f" Before: x:{x} y: {y}")
+
+x,y = y,x
+print(f" after: x: {x} y: {y}")
+
+'''
+
+
+
+
+
+
 #check if number is negative,positive, zero
 #check if number is odd,even
 #check leap year 
