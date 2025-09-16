@@ -87,8 +87,6 @@ print(cal)
 # where a,b,c are real numbers and a /= 0
 #
 '''
-
-'''
 import math
 
 a = float(input("Enter coefficient a: "))
@@ -101,6 +99,8 @@ if discriminant > 0 :
   root2 = (-b - math.sqrt(discriminant)) / (2*a)
 print(f"Root 1: {root1}")
 print(f"Root 2: {root2}")
+'''
+
 
 
 
@@ -115,9 +115,6 @@ x,y = y,x
 print(f" after: x: {x} y: {y}")
 
 '''
-
-
-
 
 
 
